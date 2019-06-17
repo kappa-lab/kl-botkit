@@ -1,9 +1,12 @@
 # setup
 
+```
+[~]$ git clone https://github.com/kappa-lab/kl-botkit.get
+[~]$ cd kl-botkit
 [kl-botkit]$ npm install
 [kl-botkit]$ install botkit@0.7 --save
 [kl-botkit]$ token=slack-bot-api-token node index.js
-
+```
 
 # refrence
 https://qiita.com/nobukatsu/items/88917a2348628244bc42
