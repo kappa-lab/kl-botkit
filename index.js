@@ -24,5 +24,9 @@ controller.hears('hello',['direct_message','direct_mention','mention'],function(
 });
 
 controller.hears('request',['direct_message','direct_mention','mention'],function(bot,message) {
-    bot.reply(message,'yes');
+    bot.reply(message,'起票するで');
+});
+
+controller.hears('Hasta la vista',['direct_message','direct_mention','mention'],function(bot,message) {
+    bot.reply(message,'baby');
 });
